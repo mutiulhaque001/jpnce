@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+  <head>
+ 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+</style>   
+<script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+</script>
+<script> 
+$(function(){
+  $("#navbar").load("homecomponents/navbar.html"); 
+  $("#footer").load("homecomponents/footer.html"); 
+});
+</script>  
+    <title>Electrical & Electronics Engineering</title>
+  </head>
+<body>
+    <!-- <?php require("navbar.php");?> -->
+    <!-- <?php require("footer.php");?> -->
+    <div id="homecomponents/navbar.html"></div>
+<div class="container">
+    <h1>ELECTRICAL & ELECTRONICS ENGINEERING</h1><br><hr>
+    <img src="Assets/eee1.jpg" alt="EEE" width="100%" height="300" alt="Responsive image">
+    <p>The department has well equipped EM lab, Power Electronics lab, control systems lab, Measurement lab, Network lab , MPMC lab and Simulation lab. The equipments are from standard reputed companies / suppliers viz. Kirloskar, Crompton & Greeves etc. the labs are spacious as per AICTE requirements and are located in ground floor of main building. The department organizes planned industrial tours for the students of III EEE every year to companies like BHEL , power Stations viz. RTPS , VTPS , Sree Sailam HEPS , Steel Plants of Visakapatnam and Hospet etc.</p>
+    <h5>EEE Mission & Vision :</h5>
+    <p>To facilitate the students to thoroughly appreciate and assimilate the nuances of the discipline with particular accent on empiricism Our department is accredidated. The department with 16 strong and committed faculty and supporting staff with rich practical experience is headed by Prof. B. Veeresham, who has completed M.Tech in Electrical Engineering with a specialization in Power Electronics from JNTUH. He has 10 years of industrial experience. The department is blessed with support from academic and industrial luminaries like Dr. Tulasiram Das, Hon’be VC of JNTU Kakinada, and Dr. GN Srinivas, Prof. EEE Department of JNTU Hyderabad, and former head of the department Prof TVSN Murthy retired DGM from BHEL.</p>
+    <h5>Mission:</h5>
+    <p>To have a technical collaboration with premier educational institutes and Maharatna Companies for exchange of state of art and know how. To impart and to encourage concept oreinted studies with work experince. To acheive 100% placements.</p>
+    <h5>Vision:</h5>
+    <p>To develop the department to the equivalent levels of premier technical institution in the country. To produce electrical engineers vibrant with “SELF CONFIDENCE” “STATE OF ART” to enable them to fit any slot and to produce national wealth. To establish the department as a research and development center in electrical engnieering and meet the needs of future.</p><br>
+<div class="container">
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active" data-toggle="tab" href="#department">Department</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#hod">HOD</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#facultystaff">Faculty & Staff</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#labsinfastructure">Labs & Infastructure</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#publications">Publications</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#events">Events</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#achivements">Achivements</a>
+    </li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div id="department" class="container tab-pane active"><br>
+        <h4>About the department :</h4>
+        <p>The department has well equipped EM lab, Power Electronics lab, control systems lab, Measurement lab, Network lab and Simulation lab. The equipments are from standard reputed companies / suppliers viz. Kirloskar, Crompton & Greeves etc. the labs are spacious as per AICTE requirements and are located in ground floor of main building.<br><br>The department organizes planned industrial tours for the students of III EEE every year to companies like BHEL, power Stations viz. RTPS , VTPS , Sree Sailam HEPS , Steel Plants of Visakapatnam and Hospet etc. Also the department periodically organizes seminars, workshops expert lectures to make staff and students to keep in pace with latest developments in the field and state of art.<br><br>In addition to the excellent library and Digital library facilities in the college, the department has its department library with updated journals and manuals. These educational facilities coupled with encouragement, motivation above all serene environment provide Philip to our staff and students to do innovative and creative things. Thus , we in the department designed and fabricated various domestic and industrial working models viz. UPS, IG inverters etc clap switch, Burglar alarm and designed and fabricated “ Integrated Auto Traction System” working model. The advantages of this IATS are not only to detect and control the station and rail way gates but also dynamically check the continuity of the track which is relatively a new concept in our country. This ensures safety of passengers in addition to railway property.
+<br><br>The final year students developed a working model “ Micro controller Based Smart Energy Meter with Data Transmission” with special features Power Consumption Data Transmission Directly to substation concerned, Power theft prevention, HV / LV protection etc. We propose to suggest to the concerned CPDCL authorities for implementation after verifying commercial feasibility.<br><br>Some of the working models were selected and found placed in the exhibition organized by SRUJANA, PRAGNA etc. Most of the models won laurels by one and all.<br><br>The students presented papers at various seminars organized by various colleges in AP and other states. Some of them won first prize.
+<br><br>The faculty members are deputed to attend seminars , workshops organized by Osmania University , JNTU, NIT and IISC Banglore etc.<br><br>Under QIP our management is magnanimous to sponsor our staff to M.Tech programs 4 staff members completed M.Tech. The faculty of the department presented more than 6 technical papers in international conferences.
+The department offers technical and training support to the industries located in this region.
+Based on “Bridge Course Analysis” conducted by our department over a period of 12 months ( 2 spells ), we conducted courses for skills which are in high demand for our pre and final year students. This helps them to do well in “ placement interviews” etc.
+<br><br>As regards curriculum improvement program, our department has given number of suggestion to JNTU, most of them were adapted and introduced with Academic regulations course Structure.<br></p>
+
+    </div>
+    <div id="hod" class="container tab-pane fade"><br>
+      <h4>HoD Profile :-</h4><br>
+      <img class="m-5" src="Assets/adminstaff8.jpg" alt="Dr. Santhosh" width="250" height="250" ALIGN="left"/>
+      <h5>Dr. M Santhosh Kumar Goud</h5><br><br>
+      <p>Dr. Santhosh has completed his Diploma in Electrical & Electronics Engineering from Government Polytechnic Mahabubnagar and B. Tech in Electrical & Electronics Engineering from PRRM Engineering College in 2005. He did his double masters from the prestigious University of St. Andrewes, UK and Universiteit Gent and Vrije Universiteit Brussel, Belgium with a full Erasmus Mundus scholarship awarded by European Commission. Later he worked as a Research Assistant at BPHOT Labs, TONA, VUB. He did his Ph.D. from National Institute of Technology Karnataka (NITK), Surathkal. He has a strong inclination towards interdisciplinary research areas.<br><br>His areas of interest include, Microgrids/Smart grids, Machine Learning/Deep Learning Applications to areas such as Power Systems, Power Quality, and Electric Vehicles.<br><BR CLEAR="left"/></p>
+    </div>
+    <div id="facultystaff" class="container tab-pane fade"><br>
+      <h4>Faculty & Staff:</h4><br><br>
+      <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="Assets/adminstaff8.jpg" alt="Dr.Santhosh" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>Dr. M Santhosh Kumar Goud</h1> 
+      <p><b>JNTU ID :</b>9318 – 200110 – 130548<br>
+      <b>Qualification :</b>Ph.D. (NITK), MS(UK), MS(Bel)<br>
+      <b>Designation :</b>Assistant Professor & HOD<br>
+      <b>Experience :</b>5 Years<br>
+      <b>Contact :</b>santhosh.manikonda@gmail.com</p>
+    </div>
+  </div>
+</div>
+    </div>
+    <div id="labsinfastructure" class="container tab-pane fade"><br>
+      <h3>Menu 1</h3>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <div id="publications" class="container tab-pane fade"><br>
+      <h3>Menu 1</h3>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <div id="events" class="container tab-pane fade"><br>
+      <h3>Menu 1</h3>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <div id="achivements" class="container tab-pane fade"><br>
+      <h3>Menu 1</h3>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+  </div>
+</div>
+
+
+
+</div>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+ <div id="homecomponents/footer.html"></div>
+  </body>
+</html>
